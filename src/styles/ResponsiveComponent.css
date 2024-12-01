@@ -37,7 +37,7 @@
   
   /* Add unique styles for Box One and Box Two if needed */
   .box-one {
-    background-color: #e3fdf0;
+    background-color: #ffffff;
     max-width: 20%;
     
   }
@@ -61,6 +61,7 @@
     /*max-width: 800px;*/
     display: flex;
     justify-content: center;
+    
   }
   
   form {

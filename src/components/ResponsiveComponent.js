@@ -12,18 +12,20 @@ const ResponsiveComponent = () => {
 
   const renderTabContent = () => {
     switch (activeTab) {
-        case "Tab 1":
-            return <p>Tab 1.</p>;
-        case "Tab 2":
-            return <p>Tab 2.</p>;
-        case "Tab 3":
-            return <p>Tab 3.</p>;
-        case "Tab 4":
-            return <p>Tab 4.</p>;
-        case "Tab 5":
-            return <p>Tab 5.</p>;
-        case "Tab 6":
-            return <p>Tab 6.</p>;
+        case "Most Common Search's":
+            return <p>Most Common Search's</p>;
+        case "Dialysis":
+            return <p>Dialysis</p>;
+        case "Lung Cancer":
+            return <p>Lung Cancer</p>;
+        case "Ovarian Cyst":
+            return <p>Ovarian Cyst</p>;
+        case "Bypass Surgery":
+            return <p>Bypass Surgery</p>;
+        case "Knee Replacement":
+            return <p>Knee Replacement</p>;
+        case "Cardiac Bypass":
+            return <p>Cardiac Bypass</p>;
       default:
         return <p>Select a tab to see its content.</p>;
     }
@@ -72,7 +74,7 @@ const ResponsiveComponent = () => {
       <br/>
        {/* Tab Selection Row */}
       <div className="tabs-container">
-        {["Tab 1", "Tab 2", "Tab 3","Tab 4","Tab 5","Tab 6"].map((tab) => (
+        {["Most Common Search's", "Dialysis", "Lung Cancer","Ovarian Cyst","Bypass Surgery","Knee Replacement","Cardiac Bypass"].map((tab) => (
           <button
             key={tab}
             className={`tab-button ${activeTab === tab ? "active" : ""}`}
