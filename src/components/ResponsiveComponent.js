@@ -37,13 +37,13 @@ const ResponsiveComponent = () => {
       <div className="flex-container">
         {/* First Flex Box */}
         <div className="flex-box box-one">
-          <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/embryo-freezing-3589593-3052354.png" alt="Girl in a jacket" width="250" height="250"/>  
-          <p>Freezing Egg</p>
+          <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/embryo-freezing-3589593-3052354.png" alt="Girl in a jacket" width="150" height="150"/>  
+          <h3 style={{color: "#08335d"}}  >Egg Freezing {'>'}</h3>
         </div>
 
         {/* Second Flex Box */}
         <div className="flex-box box-two">
-          <h2 style={{color: "blue"}}>How Can We Help You?</h2>
+          <h2 style={{color: "#08335d"}}>How Can We Help You?</h2>
           <br/>
           <ul>
             <li>Easily Submit Your Medical Procedure Request</li>

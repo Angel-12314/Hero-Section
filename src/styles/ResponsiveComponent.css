@@ -39,6 +39,10 @@
   .box-one {
     background-color: #ffffff;
     max-width: 20%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     
   }
   
@@ -52,6 +56,8 @@
     height: 30px;
     background-color: white;
     border-style: none;
+    color: #08335d;
+    font-size: 15px;
   }
 
   /* Search bar container */
@@ -135,6 +141,7 @@
     text-align: center;
     font-size: 16px;
     width: 100%;
+    /*background-color: #08335d;*/
   }
 
   /* Responsive styles for mobile */
@@ -170,4 +177,5 @@
       }
     
   }
+  
   
